@@ -42,10 +42,28 @@ while (cantConsDia !=0 and precioEst !=0):
     print("#"*60)
     print("Para terminar complete con 0 ambos ingresos de datos")
     print("#"*60)
-print("#"*30)
+print("#"*40)
 print ("Fin programa Funciones alimento mascota")
-print("#"*30)
+print("#"*40)
 
 
+# def nombreFincion(parametros):
+# bloque de codigo a ejecutar
+# 
+
+
+def sumaEnteros (num1,num2): #parametros
+#    print("hola como estas? los numeros que me pasaste son: ", num1, " y ", num2)
+    suma= num1 + num2
+    #return num1 + num2
+    return suma
+
+resultadoSuma = sumaEnteros(2,3) #argumentos posicionales
+print("El resultado de la suma es: ", resultadoSuma)
+
+#var1 = 67
+#print("lo que hay en VAR1 es: ",var1)
+
+print("la suma entre 3 y 3 es : ", sumaEnteros(3,3))
 
 
